@@ -147,9 +147,17 @@ body {
 }
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #7a5dca;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #4e1a79;
+  
+}
+/* Tambahkan CSS untuk message ketika diklik */
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  
 }
 /**/
 
