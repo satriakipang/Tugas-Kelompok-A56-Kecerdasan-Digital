@@ -312,7 +312,7 @@ h3 {
 
 
 /*Ngatur buat kagak hancur saat di ganti layar*/
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 768px) {
     .wrapper {
         width: 90%;
     }
