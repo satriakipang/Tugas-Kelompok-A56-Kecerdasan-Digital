@@ -316,6 +316,10 @@ h3 {
     .wrapper {
         width: 90%;
     }
+    .Gambaryo{
+        display: block;
+        width: auto;
+    }
     .Arif{
         display: block;
         width: 100%;
