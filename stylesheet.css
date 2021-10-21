@@ -272,13 +272,15 @@ p {
 }
 .kartu-partner img {
     width: 150px;
-    border-radius: 50px;
 }
 #contact {
     background: #dedede;
     padding: 50px 0px 50px 0px;
 }
-
+.ig img {
+    width: 50px;
+    height: 50px;
+}
 .footer {
     width: 100%;
     position: relative;
@@ -288,7 +290,7 @@ p {
 }
 
 .footer-section {
-    width: 20%;
+    width: 32%;
     margin: 0 auto;
 }
 h3 {
@@ -304,8 +306,8 @@ h3 {
 #copyright {
     text-align: center;
     width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 50px;
+    padding: 40px 0px;
+    margin-top: 30px;
 }
 
 
