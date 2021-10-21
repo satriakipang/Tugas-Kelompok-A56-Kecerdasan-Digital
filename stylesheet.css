@@ -1,192 +1,369 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+/*Membuat semua disain jika di panggil*/
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #222;
-  padding-bottom: 50px;
-}
-.logo {
-  width: 60px;
-  margin-left: 20px;
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-/*Mengatur ukuran text Jalan-Jalan Yuk logo*/
-.header-left p{
-  font-size: 15px;
-  text-align: center;
-}
-/**/
-
-/*Mengatur Animasi text Jalan-Jalan Yuk logo*/
-.nav p {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-/**/
-
-.nav {
-  position: fixed;
-  background-color: #222;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: all 0.3s ease-in-out;
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+    background: #F6F6F6;
 }
 
-.nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  transition: all 0.3s ease-in-out;
+.Atasdong{
+    width: 1100px;
+    /*Membuat wrapper berada di tengah*/
+    margin: auto;
+    position: relative;
 }
 
-.nav ul {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
+.wrapper{
+    width: 1100px;
+    /*Membuat wrapper berada di tengah*/
+    margin: 20px auto;
+    position: relative;
+}
+/*Style untuk Logo*/
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
 }
 
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 7px 15px;
-  transition: all 0.3s ease-in-out;
+.menu {
+    float: right; 
 }
+/*Header Arif*/
+.Arif {
+    background-image: url("travel11.png");
+    background-size:cover;  
+    width: 100%;
+}
+marquee
+{
+   margin-top: -2900px;
+   padding-top: 2000px;
+   margin-bottom: -350px;
+   color:  white;
 
-.nav.active {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
-
-/*Ubah Warna Saat Kebawah*/
-.nav.active p {
-  color: #000;
+.animasi
+{
+   margin-left:-20px;
 }
-.nav.active a  {
-  color: #000;
+.animasi img
+{
+   width: 600px;
+   margin-left: 10px;
+   float:left;
+   margin-top: 0x;
+   position: sticky;
 }
-/**/
-
-.nav.active .container {
-  padding: 10px 0;
+.content
+{
+    text-align:center;
+    margin-top: 100px;
+    margin-left: 0px;
+    color: white;
+    padding-top: 100px;
+   
 }
-
-.nav a.current,
-.nav a:hover {
-  color: #c0392b;
-  font-weight: bold;
+.content h1 {
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
-
-.hero {
-  background-image: url('https://assets-a1.kompasiana.com/items/album/2015/12/22/holiday-mood-56789aef727e61c604616c1b.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  margin-bottom: 20px;
-  z-index: -2;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.hero h1 {
-  font-size: 46px;
-  margin: -20px 0 20px;
-}
-
-.hero p {
-  font-size: 20px;
-  letter-spacing: 1px;
-}
-
-.content h2,
-.content h3 {
-  font-size: 150%;
-  margin: 20px 0;
-}
-
 .content p {
-  color: #555;
-  line-height: 30px;
-  letter-spacing: 1.2px;
+   margin-top: 50px;
 }
-/*Membuat Tombol Mulai*/
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-.message {
-  padding: 15px 40px;
-  background-color: #7a5dca;
-  cursor: pointer;
-  box-shadow: 0 7px #4e1a79;
+.judul_besar
+{
+   margin-top: 50px;
   
 }
-/* Tambahkan CSS untuk message ketika diklik */
-.message:active{
-  box-shadow: none;
-  position: relative;
-  top: 7px;
-  
+.penjelasan
+{
+   margin-top:-35px;
 }
+.content h3
+{
+   font-size: 35px;
+   margin-top: -50px;
+   margin-bottom: -70px;
+   color: white;
+}
+
+button {
+   font-family: sans-serif;
+   font-size: 30px;
+   color:black;
+   background: white;
+   color: purple;
+   border: purple 1px solid;
+   border-radius: 30px;
+   padding: 20px 50px;
+   margin-top: 10px;
+   margin-left: -100px;
+   box-shadow: -2px 2px purple;
+   position: absolute;
+}
+
+button:hover {
+   opacity: 0.8;
+}
+button:active {
+ position: relative;
+ top: 7px;
+ box-shadow: none;
+}
+
+.box1{
+   margin-top: 190px;
+   width:100%;
+   height:100px;
+   background:#EBB933;
+}
+
 /**/
+nav{
+    width: 100%;
+    margin: auto;
+    /*display flex buat bikin kolom*/display: flex;
+    line-height: 80px;
+    /*mengatur posisi buat selalu di atas*/ position: sticky;
+    /*mengatur posisi buat selalu di atas buat mac*/ position: -webkit-sticky;
+    top: 0px;
+    background: #F6F6F6;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+} 
 
 
-/*Disain Bagian Bawah*/
+section{
+   margin: auto;
+   /*felx membuat margin dalam bentuk kolom*/display: flex;
+   margin-bottom: 50px; 
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Gambaryo img{
+    width: 500px;
+    height: 500px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:  #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:  #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    background: #fc5185;
+}
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+p {
+    margin:10px 0px 10px 0px ;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width :100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: flex;
+}
+.kartu-partner{
+    width: 20%;
+    margin: 0 auto ;
+}
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50px;
+}
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
 .footer {
-  background-color: #000000;
-  color: #fff;
-  height: 200px;
-  padding: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
-.footer-logo {
-  float: left;
-  font-size: 32px;
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
 }
 
-.footer-list {
-  float: right;
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+
+/*Ngatur buat kagak hancur saat di ganti layar*/
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .Arif{
+        display: block;
+        width: 100%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+       width: 50%; 
+
+    }
+    .kartu-partner img {
+        width: 50%;
+        margin: auto;
+    }
+    .footer-section {
+        width: 50%;
+    }
+
 }
 
-/*Mengatur ukuran text Jalan-Jalan Yuk logo (bawah)*/
-.footer-logo p{
-  font-size: 15px;
-  text-align: center;
-  color: #fff;
-}
-/**/
+
+
+
+
+
+
