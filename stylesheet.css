@@ -9,7 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Open sans',sans-serif;
-    background: #F6F6F6;
+    background: #C7F2E3;
 }
 
 .Atasdong{
@@ -32,7 +32,7 @@ body{
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #364f6b;
+    color: white;
 }
 
 .menu {
@@ -138,7 +138,7 @@ nav{
     /*mengatur posisi buat selalu di atas*/ position: sticky;
     /*mengatur posisi buat selalu di atas buat mac*/ position: -webkit-sticky;
     top: 0px;
-    background: #F6F6F6;
+    background: #27486C;
     z-index: 1;
     border-bottom: 1px solid #364f6b;
 }
@@ -154,7 +154,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -274,7 +274,7 @@ p {
     width: 150px;
 }
 #contact {
-    background: #dedede;
+    background: #EBB933;
     padding: 50px 0px 50px 0px;
 }
 .ig img {
@@ -298,7 +298,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #1e2474;
     width: 100%;
     line-height: 50px;
 }
