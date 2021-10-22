@@ -419,19 +419,12 @@ h3 {
     .footer-section {
         width: 50%;
     }
-    /*Untuk gambar gerak*/
-    .container-gerak {
-        display: block;
+    .container-gerak{
         width: auto;
-      }
-      .panel:nth-of-type(4),
-      .panel:nth-of-type(5) {
-        display: none;
-      }
+    }
+    .panel h3{
+        width: 50%;
+        margin: auto;
+    }
 }
-/**/
-
-
-
-
-
+    /*Untuk gambar gerak*/
