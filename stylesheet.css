@@ -420,6 +420,11 @@ h3 {
        width: 50%; 
 
     }
+    .kartu-trans img {
+        width: 100px;
+        height: 100px;
+        margin: auto; 
+     }
     .kartu-partner img {
         width: 50%;
         margin: auto;
