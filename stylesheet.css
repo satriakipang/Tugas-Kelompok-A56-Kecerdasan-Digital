@@ -73,10 +73,11 @@ marquee
     padding-top: 100px;
    
 }
-.content h1 {
+.judul_besar h1 {
     font-size: 50px;
-    margin-top: -10px;
+    margin-top: 100px;
     margin-bottom: 20px;
+    font-family: 'Open sans',sans-serif;
 }
 .content p {
    margin-top: 50px;
@@ -243,17 +244,17 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-.kartu-tutor {
+.kartu-trans {
     width: 20%;
     margin: 0 auto;
 }
-.kartu-tutor img {
+.kartu-trans img {
     width: 80%;
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
-.kartu-tutor p {
+.kartu-trans p {
     font-family: 'comic sans ms';
     font-weight: 800;
     text-align: center;
@@ -274,7 +275,7 @@ p {
     width: 150px;
 }
 #contact {
-    background: #EBB933;
+    background: #27486C;
     padding: 50px 0px 50px 0px;
 }
 .ig img {
@@ -292,6 +293,12 @@ p {
 .footer-section {
     width: 32%;
     margin: 0 auto;
+}
+.footer-section h3 {
+    color:white
+}
+.footer-section p {
+    color:white
 }
 h3 {
     font-family: 'comic sans ms';
@@ -409,7 +416,7 @@ h3 {
         height: auto;
     }
 
-    .kartu-tutor {
+    .kartu-trans {
        width: 50%; 
 
     }
