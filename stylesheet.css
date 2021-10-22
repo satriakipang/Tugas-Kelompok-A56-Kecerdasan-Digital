@@ -328,6 +328,7 @@ h3 {
     margin: 10px;
     position: relative;
     transition: all 700ms ease-in;
+    margin-bottom: 100px;
   }
   
   .panel h3 {
@@ -343,7 +344,7 @@ h3 {
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: -60px;
     color: #000000;
     width: 100%;
